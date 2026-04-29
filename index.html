@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#f9f3f0">
+  <meta name="description" content="Şerife & Fırat düğün davetiyesi — 03 Mayıs 2026">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <title>Şerife & Fırat — Düğün Davetiyesi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Global ambient particles (fixed, covers entire page) -->
+  <div class="ambience" aria-hidden="true">
+    <span class="orb orb-1"></span>
+    <span class="orb orb-2"></span>
+    <span class="orb orb-3"></span>
+    <span class="petal petal-1"></span>
+    <span class="petal petal-2"></span>
+    <span class="petal petal-3"></span>
+    <span class="petal petal-4"></span>
+    <span class="petal petal-5"></span>
+    <span class="petal petal-6"></span>
+    <span class="petal petal-7"></span>
+    <span class="petal petal-8"></span>
+    <span class="petal petal-9"></span>
+    <span class="petal petal-10"></span>
+    <span class="blossom blossom-1"></span>
+    <span class="blossom blossom-2"></span>
+    <span class="blossom blossom-3"></span>
+    <span class="blossom blossom-4"></span>
+    <span class="blossom blossom-5"></span>
+    <span class="blossom blossom-6"></span>
+    <span class="heart heart-1"></span>
+    <span class="heart heart-2"></span>
+    <span class="heart heart-3"></span>
+    <span class="heart heart-4"></span>
+    <span class="heart heart-5"></span>
+    <span class="spark spark-1"></span>
+    <span class="spark spark-2"></span>
+    <span class="spark spark-3"></span>
+  </div>
+
+  <!-- ╔══════════════════════════════════════╗
+       ║   SECTION 1 — Envelope Experience   ║
+       ╚══════════════════════════════════════╝ -->
+  <section class="scene" id="experience">
+
+    <!-- Decorative corner ornaments -->
+    <div class="corner-ornaments" aria-hidden="true">
+      <span class="corner corner-tl"></span>
+      <span class="corner corner-tr"></span>
+      <span class="corner corner-bl"></span>
+      <span class="corner corner-br"></span>
+    </div>
+
+    <!-- Hero text block -->
+    <div class="hero-text entrance-anim anim-1">
+      <p class="hero-pretext">Evleniyoruz</p>
+      <h1 class="hero-names">Şerife <span class="hero-amp">&</span> Fırat</h1>
+      <div class="hero-divider"></div>
+      <p class="hero-date">02 Mayıs 2026 KINA & 03 Mayıs 2026 DÜĞÜN</p>
+    </div>
+
+    <p class="subtitle entrance-anim anim-2"><span class="deco">✦</span> Zarfı açmak için dokun <span
+        class="deco">✦</span></p>
+
+    <div class="stage entrance-anim anim-3">
+      <!-- Soft glow behind envelope -->
+      <div class="envelope-glow" aria-hidden="true"></div>
+      <div class="card-layer">
+        <img src="davetiye2.png" alt="Düğün davetiyesi" class="invite-card">
+      </div>
+      <button class="envelope" id="envelope" aria-label="Zarfı aç">
+        <img src="zarf.png" alt="" class="envelope-image envelope-closed" aria-hidden="true">
+        <img src="zarf2.png" alt="" class="envelope-image envelope-open" aria-hidden="true">
+      </button>
+    </div>
+
+    <button class="hint entrance-anim anim-4" id="hintButton">Zarfı Aç</button>
+
+    <!-- Scroll indicator (appears after reveal) -->
+    <div class="scroll-hint" id="scrollHint" aria-hidden="true">
+      <span class="scroll-arrow"></span>
+      <span class="scroll-text">Aşağı kaydır</span>
+    </div>
+  </section>
+
+  <!-- ╔══════════════════════════════════════╗
+       ║   SECTION 2 — Family Information     ║
+       ╚══════════════════════════════════════╝ -->
+  <section class="content-section family-section" id="familySection">
+    <div class="section-ornament top" aria-hidden="true">✦ ✦ ✦</div>
+    <h2 class="section-title">Ailelerimiz</h2>
+
+    <div class="family-grid">
+      <!-- Kız Tarafı -->
+      <div class="family-card">
+        <div class="family-icon">👰</div>
+        <h3 class="family-side">Gelin Tarafı</h3>
+        <div class="family-divider"></div>
+        <p class="family-parents">Yaşar & Şerife</p>
+        <p class="family-surname">BAĞCI</p>
+        <p class="family-child">kızları</p>
+        <p class="family-name">Şerife</p>
+        <p class="family-phone">0536 364 59 16</p>
+      </div>
+
+      <!-- Erkek Tarafı -->
+      <div class="family-card">
+        <div class="family-icon">🤵</div>
+        <h3 class="family-side">Damat Tarafı</h3>
+        <div class="family-divider"></div>
+        <p class="family-parents">Zülküf & Şerbet</p>
+        <p class="family-surname">DENİZ</p>
+        <p class="family-child">oğulları</p>
+        <p class="family-name">Fırat</p>
+        <p class="family-phone">0542 740 36 46</p>
+      </div>
+    </div>
+
+    <div class="section-ornament bottom" aria-hidden="true">✦</div>
+  </section>
+
+  <!-- ╔══════════════════════════════════════╗
+       ║   SECTION 3 — Contact & Actions      ║
+       ╚══════════════════════════════════════╝ -->
+  <section class="content-section contact-section" id="contactSection">
+    <div class="section-ornament top" aria-hidden="true">✦ ✦ ✦</div>
+    <h2 class="section-title">İletişim</h2>
+
+    <div class="contact-grid">
+      <a href="tel:+905367364591" class="action-btn contact-btn" id="phoneBtn">
+        <span class="btn-icon">📞</span>
+        <span class="btn-text">Gelin Babası Ara</span>
+        <span class="btn-subtitle">0536 364 59 16</span>
+      </a>
+
+      <a href="tel:+905427403646" class="action-btn contact-btn" id="phoneBtnGroom">
+        <span class="btn-icon">📞</span>
+        <span class="btn-text">Damat Babası Ara</span>
+        <span class="btn-subtitle">0542 740 36 46</span>
+      </a>
+    </div>
+
+    <div class="section-ornament bottom" aria-hidden="true">✦</div>
+  </section>
+
+  <!-- ╔══════════════════════════════════════╗
+       ║   SECTION 4 — Kına Information      ║
+       ╚══════════════════════════════════════╝ -->
+  <section class="content-section venue-section" id="kinaSection">
+    <div class="section-ornament top" aria-hidden="true">✦ ✦ ✦</div>
+    <h2 class="section-title">KINA </h2>
+
+    <div class="venue-card">
+      <div class="venue-icon">🕯️</div>
+      <h3 class="venue-name">KINA</h3>
+      <p class="venue-address">Çiftliközü Mah. İlhan Sk. No: 104<br>Derbent / Konya</p>
+      <div class="venue-datetime">
+        <div class="venue-detail">
+          <span class="venue-detail-icon">📅</span>
+          <span>02 Mayıs 2026, Cumartesi</span>
+        </div>
+        <div class="venue-detail">
+          <span class="venue-detail-icon">🕐</span>
+          <span>19:00 - 23:00</span>
+        </div>
+      </div>
+    </div>
+
+    <a href="https://www.google.com/maps/dir/Çiftliközü+Belediyesi,+Çiftliközü,+42900+Derbent%2FKonya/Çiftliközü+Belediyesi,+Çiftliközü,+42900+Derbent%2FKonya/@37.9547426,31.9267076,16.25z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x14d00bac6aaaaaab:0xc2474a99a6ae5330!2m2!1d31.9256036!2d37.9543257!1m5!1m1!1s0x14d00bac6aaaaaab:0xc2474a99a6ae5330!2m2!1d31.9256036!2d37.9543257!3e2?entry=ttu&g_ep=EgoyMDI2MDQyNi4wIKXMDSoASAFQAw%3D%3D"
+      target="_blank" rel="noopener noreferrer" class="action-btn location-btn" id="kinaLocationBtn">
+      <span class="btn-icon">📍</span>
+      <span class="btn-text">Konuma Git</span>
+    </a>
+
+    <div class="section-ornament bottom" aria-hidden="true">✦</div>
+  </section>
+
+  <!-- ╔══════════════════════════════════════╗
+       ║   SECTION 5 — Gelin Alma Information ║
+       ╚══════════════════════════════════════╝ -->
+  <section class="content-section venue-section" id="gelinAlmaSection">
+    <div class="section-ornament top" aria-hidden="true">✦ ✦ ✦</div>
+    <h2 class="section-title">Gelin Alma</h2>
+
+    <div class="venue-card">
+      <div class="venue-icon">🚗</div>
+      <h3 class="venue-name">Gelin Alma</h3>
+      <p class="venue-address">Çiftliközü Mah. İlhan Sk. No: 104<br>Derbent / Konya</p>
+      <div class="venue-datetime">
+        <div class="venue-detail">
+          <span class="venue-detail-icon">🕐</span>
+          <span>16:00</span>
+        </div>
+      </div>
+    </div>
+
+    <a href="https://www.google.com/maps/dir/Çiftliközü+Belediyesi,+Çiftliközü,+42900+Derbent%2FKonya/Çiftliközü+Belediyesi,+Çiftliközü,+42900+Derbent%2FKonya/@37.9547426,31.9267076,16.25z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x14d00bac6aaaaaab:0xc2474a99a6ae5330!2m2!1d31.9256036!2d37.9543257!1m5!1m1!1s0x14d00bac6aaaaaab:0xc2474a99a6ae5330!2m2!1d31.9256036!2d37.9543257!3e2?entry=ttu&g_ep=EgoyMDI2MDQyNi4wIKXMDSoASAFQAw%3D%3D"
+      target="_blank" rel="noopener noreferrer" class="action-btn location-btn" id="gelinAlmaLocationBtn">
+      <span class="btn-icon">📍</span>
+      <span class="btn-text">Konuma Git</span>
+    </a>
+
+    <div class="section-ornament bottom" aria-hidden="true">✦</div>
+  </section>
+
+  <!-- ╔══════════════════════════════════════╗
+       ║   SECTION 6 — Düğün Information     ║
+       ╚══════════════════════════════════════╝ -->
+  <section class="content-section venue-section" id="dugünSection">
+    <div class="section-ornament top" aria-hidden="true">✦ ✦ ✦</div>
+    <h2 class="section-title">Düğün Mekanı</h2>
+
+    <div class="venue-card">
+      <div class="venue-icon">🏛️</div>
+      <h3 class="venue-name">Manzara Düğün Salonu</h3>
+      <p class="venue-subtitle">Kelebekler Vadisi Karşısı</p>
+      <p class="venue-address">Selahaddin Eyyubi Mahallesi, İsmail Kaya Caddesi No: 263<br>Selçuklu / Konya</p>
+      <div class="venue-datetime">
+        <div class="venue-detail">
+          <span class="venue-detail-icon">📅</span>
+          <span>03 Mayıs 2026, Pazar</span>
+        </div>
+        <div class="venue-detail">
+          <span class="venue-detail-icon">🕐</span>
+          <span>19:00 - 23:00 (Yemek: 19:00 - 20:30)</span>
+        </div>
+      </div>
+    </div>
+
+    <a href="https://maps.google.com/?q=Selahaddin+Eyyubi+Mahallesi+İsmail+Kaya+Caddesi+No+263+Selçuklu+Konya+Manzara+Düğün+Salonu"
+      target="_blank" rel="noopener noreferrer" class="action-btn location-btn" id="locationBtn">
+      <span class="btn-icon">📍</span>
+      <span class="btn-text">Konuma Git</span>
+    </a>
+
+    <div class="section-ornament bottom" aria-hidden="true">✦</div>
+  </section>
+
+  <!-- ╔══════════════════════════════════════╗
+       ║   SECTION 7 — Countdown Timer       ║
+       ╚══════════════════════════════════════╝ -->
+  <section class="content-section countdown-section" id="countdownSection">
+    <div class="section-ornament top" aria-hidden="true">✦ ✦ ✦</div>
+    <h2 class="section-title">Düğüne Kalan Süre</h2>
+    <div class="countdown" id="countdown">
+      <div class="countdown-item">
+        <span class="countdown-number" id="countDays">--</span>
+        <span class="countdown-label">Gün</span>
+      </div>
+      <div class="countdown-separator">:</div>
+      <div class="countdown-item">
+        <span class="countdown-number" id="countHours">--</span>
+        <span class="countdown-label">Saat</span>
+      </div>
+      <div class="countdown-separator">:</div>
+      <div class="countdown-item">
+        <span class="countdown-number" id="countMinutes">--</span>
+        <span class="countdown-label">Dakika</span>
+      </div>
+      <div class="countdown-separator">:</div>
+      <div class="countdown-item">
+        <span class="countdown-number" id="countSeconds">--</span>
+        <span class="countdown-label">Saniye</span>
+      </div>
+    </div>
+    <p class="countdown-date">03 Mayıs 2026, Pazar</p>
+    <div class="section-ornament bottom" aria-hidden="true">✦</div>
+  </section>
+
+  <!-- ╔══════════════════════════════════════╗
+       ║   Footer                              ║
+       ╚══════════════════════════════════════╝ -->
+  <footer class="site-footer">
+    <p class="footer-names">Şerife <span class="footer-amp">&</span> Fırat</p>
+    <p class="footer-date">03.05.2026</p>
+    <div class="footer-hearts" aria-hidden="true">♥ ♥ ♥</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
